@@ -20,5 +20,5 @@ jobs:
           project: '${CIRCLE_PROJECT_REPONAME}/${CIRCLE_BRANCH}-container'
           severity-threshold: high
           target-file: Dockerfile
-          token-variable: SNYK_TOKEN1
+          token-variable: SNYK_TOKEN
 workflows: null
